@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>product-ms</artifactId>
+    <artifactId>catalog-ms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>product-ms</name>
-    <description>product-ms</description>
+    <name>catalog-ms</name>
+    <description>catalog-ms</description>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>2021.0.3</spring-cloud.version>
@@ -41,6 +41,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
